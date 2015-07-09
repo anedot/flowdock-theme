@@ -1,8 +1,14 @@
 body {
-  font-family: "Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif !important;
+  font-family: Lato !important;
+  font-weight: 450;
   -webkit-font-smoothing: antialiased !important;
   background: #fff !important;
   color: #555459 !important;
+}
+
+pre {
+  font-family: Courier,serif !important;
+  font-weight: normal;
 }
 
 /* -- CHAT -- */
