@@ -1,8 +1,14 @@
 body {
-  font-family: "Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif !important;
+  font-family: Lato !important;
+  font-weight: 450;
   -webkit-font-smoothing: antialiased !important;
   background: #fff !important;
   color: #555459 !important;
+}
+
+pre {
+  font-family: Courier,serif !important;
+  font-weight: normal;
 }
 
 /* -- CHAT -- */
@@ -26,6 +32,10 @@ body {
   background-color: #fff !important;
   border-bottom: none !important;
   border-top: none !important;
+}
+
+#toolbar {
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 /* remove upload and markdown stuff */
@@ -296,23 +306,6 @@ a.timestamp-link,
   border-color: #2ca02c;
   color: #2ca02c;
 }
-
-/**
- * Single View Icon Backgrounds
- */
-.type-icon                        { background-color: #00a651 !important; }
-.vcs .type-icon                   { background-color: #666666 !important; }
-.uservoice .type-icon             { background-color: #ff8800 !important; }
-.twitter .type-icon               { background-color: #4099ff !important; }
-.inbox-chat-message .type-icon    { background-color: #00a9e0 !important; }
-.file .type-icon                  { background-color: #00a9e0 !important; }
-.line .type-icon                  { background-color: #00a9e0 !important; }
-.action .type-icon                { background-color: #00a9e0 !important; }
-.single-chat-message .type-icon   { background-color: #00a9e0 !important; }
-.trello .type-icon                { background-color: #185E88 !important; }
-.newrelic .type-icon              { background-color: #2E879A !important; }
-
-
 
 /* ==========================================================================
    Inbox
