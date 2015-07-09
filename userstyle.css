@@ -34,6 +34,10 @@ pre {
   border-top: none !important;
 }
 
+#toolbar {
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
 /* remove upload and markdown stuff */
 #chat form li.upload, #chat form li.send {
   display: none !important;
