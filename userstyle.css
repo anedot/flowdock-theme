@@ -1,0 +1,418 @@
+body {
+  font-family: "Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif !important;
+  -webkit-font-smoothing: antialiased !important;
+  background: #fff !important;
+  color: #555459 !important;
+}
+
+/* -- CHAT -- */
+
+#chat li.time-separator {
+  border-top-width: 0.5px !important;
+  border-top-color: #efefef !important;
+}
+
+#chat .toolbar-button {
+  display: none !important;
+}
+
+#chat .chat-toolbar ul.userbar.online {
+  position: absolute !important;
+  left: 1em !important;
+  right: 1em !important;
+}
+
+#toolbar, #chat-form {
+  background-color: #fff !important;
+  border-bottom: none !important;
+  border-top: none !important;
+}
+
+/* remove upload and markdown stuff */
+#chat form li.upload, #chat form li.send {
+  display: none !important;
+}
+
+/* add a little weight to chat messages */
+   .message {
+     font-size: 14px;
+   }
+
+/* make it more obvious that you are editing a message */
+  .chat-message.open {
+      background-color: #FFF4D1 !important;
+    }
+
+/**
+ * hide upload and markdown buttons on message textarea
+ */
+
+.message-form li.send.right {
+  display: none !important;
+}
+
+.message-form .textarea {
+  margin-right: 0 !important;
+}
+
+/* soften chat message input */
+
+.message-form fieldset {
+  border-radius: 5px !important;
+  border: 2px solid #e0e0e0 !important;
+}
+
+.user-name, .invitation-email {
+  font-family: Lato !important;
+  font-weight:800 !important;
+  font-size: 1.125rem !important;
+  color: #555459 !important;
+}
+
+
+
+/* -- SIDEBAR -- */
+
+.minimized #tab-list {
+  top: 3.942rem !important;
+}
+
+.org-name {
+  font-family: "Lato" !important;
+  font-weight:800 !important;
+  font-size: 1rem !important;
+  line-height: 1.375rem !important;
+  letter-spacing: 0.02rem !important;
+  color:#ACB2B7 !important;
+}
+
+#tab-bar, .tab-name, .nav-footer, .nav-footer-tooltip {
+  background:#303E4C !important;
+}
+
+.tab-list-shadow, .notification-container {
+  display: none !important;
+}
+
+.open-sidebar, .close-sidebar, .create-flow, .search-tab {
+  border-color: #303E4C !important;
+}
+
+.tab-name {
+  font-family: "Lato" !important;
+  font-weight: 500;
+  text-transform: lowercase;
+  font-size: 1.125rem;
+}
+
+.current .tab-link, .current .new-flow, .current .tab-link:hover {
+  background: #6698c8 !important;
+}
+
+.minimized .current .tab-link, .minimized .current .new-flow, .minimized .current .tab-link:hover {
+  background: none !important;
+}
+
+.tab-link:hover, .new-flow:hover {
+  background: #4A5664 !important;
+}
+
+.minimized .tab-link:hover, .minimized .new-flow:hover {
+  background: none !important;
+}
+
+.current .tab-name {
+  background-color: inherit !important;
+}
+
+.tab-menu-link, .tab-error-link {
+  color: #ACB2B7 !important;
+  font-family: "Lato" !important;
+  font-weight: 700 !important;
+}
+
+.tab-menu-link:hover, .tab-error-link:hover {
+  color: #fff !important;
+}
+
+.tab-link:hover .tab-name, .org-link:hover .external-link {
+  background-color: inherit !important;
+}
+
+#tab-bar.minimized .close-tab {
+  right: 0rem !important;
+  top: -0.5rem !important;
+  background-color: transparent !important;
+}
+
+
+/* -- SIDEBAR STATUS -- */
+
+/* Me */
+
+.user-menu-toggle .rounded-avatar .user-menu-avatar::after,
+.user-menu-toggle .rounded-avatar .tab-avatar::after {
+  border: 1px solid #1F2933 !important;
+}
+
+/* Default */
+.rounded-avatar .user-menu-avatar::after,
+.rounded-avatar .tab-avatar::after {
+  border: 2px solid rgba(102, 111, 120, 0.7) !important;
+}
+
+/* User is Online */
+.online .rounded-avatar .user-menu-avatar::after,
+.online .rounded-avatar .tab-avatar::after {
+  border: 2px solid #5EE629 !important;
+}
+
+
+/* Unread Messages */
+.has-activity .rounded-avatar .user-menu-avatar::after,
+.has-activity .rounded-avatar .tab-avatar::after {
+  border: 2px solid rgba(99, 201, 243, 0.7) !important;
+}
+
+.tab .activity-indicator-mentions,
+.minimized .flow-tab .activity-indicator-mentions {
+  background-color: rgba(99, 201, 243, 1) !important;
+}
+
+/* CURRENTLY SELECTED */
+.current .rounded-avatar .user-menu-avatar::after,
+.current .rounded-avatar .tab-avatar::after {
+  border: 2px solid rgba(255, 255, 255, 0.7) !important;
+  shadow:
+}
+
+
+/*——— REMOVE THE FOLLOWING LINES IN FUTURE UPDATE –––*/
+/* ==========================================================================
+Shared & Colors
+========================================================================== */
+
+.thread-activity-message, .chat-message,
+.comment-message, .action-message,
+.line-message, .status-message, .file-message,
+.inbox-comment-message, .thread-comment-message,
+.inbox-file-comment-message, .mention-message,
+.inbox-message, .info-message, .error-message,
+.single-message {
+  color: #444444 !important;
+}
+
+.message-author {
+  color: #222222 !important;
+}
+
+a.timestamp-link,
+.message-edit-time, .message-delete-time {
+  color: #999999 !important;
+}
+
+/**
+ * Single View Colors
+ */
+.single-view-link {
+  border-color: #777777;
+  color: #777777;
+}
+
+.single-view-link.blue {
+  border-color: #1f77b4;
+  color: #1f77b4;
+}
+
+.single-view-link.yellow {
+  border-color: #d8a300;
+  color: #d8a300;
+}
+
+.single-view-link.red {
+  border-color: #d62728;
+  color: #d62728;
+}
+
+.single-view-link.dirty-green {
+  border-color: #bcbd22;
+  color: #bcbd22;
+}
+
+.single-view-link.brown {
+  border-color: #8c564b;
+  color: #8c564b;
+}
+
+.single-view-link.orange {
+  border-color: #ff7f0e;
+  color: #ff7f0e;
+}
+
+.single-view-link.purple {
+  border-color: #9467bd;
+  color: #9467bd;
+}
+
+.single-view-link.teal {
+  border-color: #17becf;
+  color: #17becf;
+}
+
+.single-view-link.pink {
+  border-color: #e377c2;
+  color: #e377c2;
+}
+
+.single-view-link.green {
+  border-color: #2ca02c;
+  color: #2ca02c;
+}
+
+/**
+ * Single View Icon Backgrounds
+ */
+.type-icon                        { background-color: #00a651 !important; }
+.vcs .type-icon                   { background-color: #666666 !important; }
+.uservoice .type-icon             { background-color: #ff8800 !important; }
+.twitter .type-icon               { background-color: #4099ff !important; }
+.inbox-chat-message .type-icon    { background-color: #00a9e0 !important; }
+.file .type-icon                  { background-color: #00a9e0 !important; }
+.line .type-icon                  { background-color: #00a9e0 !important; }
+.action .type-icon                { background-color: #00a9e0 !important; }
+.single-chat-message .type-icon   { background-color: #00a9e0 !important; }
+.trello .type-icon                { background-color: #185E88 !important; }
+.newrelic .type-icon              { background-color: #2E879A !important; }
+
+
+
+/* ==========================================================================
+   Inbox
+   ========================================================================== */
+
+/**
+ * fix uneven toolbar spacing on the right
+ */
+#inbox .inbox-toolbar {
+  padding-right: 1em !important;
+}
+
+/**
+ * remove tutorial message
+ */
+#inbox .info-message.tutorial {
+  display: none !important;
+}
+
+/**
+ * make filter button smaller, like on the right
+ */
+#inbox .inbox-toolbar button#filter-toggle {
+  width: 3em !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  text-align: center !important;
+}
+
+#inbox .inbox-toolbar button#filter-toggle .label {
+  display: none;
+}
+
+#inbox .inbox-toolbar .search {
+  margin-left: 4em !important;
+}
+
+/**
+ * hide avatars
+ */
+#inbox .inbox-message .avatar {
+  width: 1.462rem !important;
+  height: 1.462rem !important;
+}
+
+#inbox .inbox-message .avatar .type-icon {
+  border-radius: 2px !important;
+}
+
+/**
+ * because avatars are hidden, change the min height of messages
+ */
+.compact #inbox li[class*=message] header {
+  min-height: 1.462rem !important;
+}
+
+/**
+ * styling inbox messages from various sources
+ */
+.inbox-message.mail {
+  background: #F7FFFC !important;
+}
+
+.inbox-message.comment-from-integration.vcs {
+  background: #EFEFEF !important;
+}
+
+/* ==========================================================================
+   Single
+   ========================================================================== */
+
+/**
+ * make single view more compact
+ */
+.single-view-content {
+  left: 3rem !important;
+}
+
+.single-view-content .single-view-body {
+  padding-right: 3rem !important;
+}
+
+.single-view-close-button {
+  width: 3rem !important;
+}
+
+.title-actions .dropdown-toggle {
+  margin: 0 0 0 0.75rem !important;
+}
+
+.sw .dropdown-menu, .sw .mentions-dropdown {
+  right: -0.75rem !important;
+}
+
+.single-view-close-button span {
+  top: 1.5rem !important;
+  left: 0.75rem !important;
+}
+
+div.title.floating {
+  right: 3em !important;
+}
+
+/**
+ * remove upload button and avatar from comment field
+ * and adjust spacing
+ */
+#single .comment-form fieldset li.avatar,
+#single .comment-form fieldset li.right {
+  display: none !important;
+}
+
+.comment-form {
+  padding-right: 3rem;
+}
+
+#single>.comment-form {
+  width: 100%;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  padding: 0 3rem 0;
+}
+
+/**
+* only display one line for comment header
+* as it's mostly redundant information
+*/
+.icon-comment + .body {
+  height: 1.827rem !important;
+}
