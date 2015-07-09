@@ -307,23 +307,6 @@ a.timestamp-link,
   color: #2ca02c;
 }
 
-/**
- * Single View Icon Backgrounds
- */
-.type-icon                        { background-color: #00a651 !important; }
-.vcs .type-icon                   { background-color: #666666 !important; }
-.uservoice .type-icon             { background-color: #ff8800 !important; }
-.twitter .type-icon               { background-color: #4099ff !important; }
-.inbox-chat-message .type-icon    { background-color: #00a9e0 !important; }
-.file .type-icon                  { background-color: #00a9e0 !important; }
-.line .type-icon                  { background-color: #00a9e0 !important; }
-.action .type-icon                { background-color: #00a9e0 !important; }
-.single-chat-message .type-icon   { background-color: #00a9e0 !important; }
-.trello .type-icon                { background-color: #185E88 !important; }
-.newrelic .type-icon              { background-color: #2E879A !important; }
-
-
-
 /* ==========================================================================
    Inbox
    ========================================================================== */
