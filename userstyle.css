@@ -148,32 +148,61 @@ body {
 
 /* -- SIDEBAR STATUS -- */
 
+/*
+Organizations
+——————————————*/
+
+.flow-list .current .tab-avatar {
+  border: 3px solid rgba(96, 212, 62, 0.4) !important;
+}
+
+.flow-list div.tab-avatar {
+  background-color: rgba(0,0,0,0) !important;
+}
+
+.minimized .flow-list .current .tab-avatar {
+  line-height: 2.1rem !important;
+}
+
+.tab-initial {
+  font-family: Lato !important;
+  font-weight:600 !important;
+}
+
 /* Me */
 
 .user-menu-toggle .rounded-avatar .user-menu-avatar::after,
 .user-menu-toggle .rounded-avatar .tab-avatar::after {
-  border: 1px solid #1F2933 !important;
+  border: 1px solid rgba(0, 0, 0, 0.5) !important;
 }
 
 /* Default */
 .rounded-avatar .user-menu-avatar::after,
 .rounded-avatar .tab-avatar::after {
-  border: 2px solid rgba(102, 111, 120, 0.7) !important;
+  border: 3px solid rgba(255, 255, 255, 0.5) !important;
+}
+
+.private-tab .tab-avatar {
+  opacity: 0.6;
 }
 
 /* User is Online */
 .online .rounded-avatar .user-menu-avatar::after,
 .online .rounded-avatar .tab-avatar::after {
-  border: 2px solid #5EE629 !important;
+  border: 3px solid rgba(255, 255, 255, 0.5) !important;
 }
 
 
 /* Unread Messages */
 .has-activity .rounded-avatar .user-menu-avatar::after,
 .has-activity .rounded-avatar .tab-avatar::after {
-  border: 2px solid rgba(99, 201, 243, 0.7) !important;
+  border: 3px solid rgba(99, 201, 243, 0.5) !important;
 }
 
+.flow-tab:hover .activity-indicator-chat,
+.flow-tab:hover .activity-indicator-mentions,
+.minimized .flow-tab .activity-indicator-chat,
+.minimized .flow-tab .activity-indicator-mentions,
 .tab .activity-indicator-mentions,
 .minimized .flow-tab .activity-indicator-mentions {
   background-color: rgba(99, 201, 243, 1) !important;
@@ -182,12 +211,11 @@ body {
 /* CURRENTLY SELECTED */
 .current .rounded-avatar .user-menu-avatar::after,
 .current .rounded-avatar .tab-avatar::after {
-  border: 2px solid rgba(255, 255, 255, 0.7) !important;
-  shadow:
+  border: 3px solid rgba(96, 212, 62, 0.7) !important;
 }
 
 
-/*——— REMOVE THE FOLLOWING LINES IN FUTURE UPDATE –––*/
+/*——— FROM THE EXAMPLE FILE THAT FLOWDOCK HAS IN ABOUT BOX –––*/
 /* ==========================================================================
 Shared & Colors
 ========================================================================== */
