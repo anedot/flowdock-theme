@@ -7,4 +7,4 @@ Place userstyle.css into the following directory.
 
 Your Flowdock will look like our Flowdock.
 
-Inspired by @rnarius and Flowdock's reference to his custom style repo.
+Inspired by Slack and @rnarius and Flowdock's reference to rnarius' custom style repo.
