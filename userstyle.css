@@ -38,6 +38,28 @@ pre {
   right: 1em !important;
 }
 
+.bubble-icon {
+  width: 14px !important;
+  height: 14px !important;
+}
+
+.chat-message .bubble.thread {
+  opacity: 0.25 !important;
+}
+
+.chat-message.comment-group-hover .bubble.thread {
+  opacity: 1 !important;
+}
+
+.chat-message {
+  padding-left: 2.25em !important;
+}
+
+/* fix seen icon spacing */
+.private .message-seen::after {
+  left: 1em !important;
+}
+
 #toolbar, #chat-form {
   background-color: #fff !important;
   border-bottom: none !important;
