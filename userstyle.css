@@ -3,7 +3,17 @@ body {
   font-weight: 450;
   -webkit-font-smoothing: antialiased !important;
   background: #fff !important;
-  color: #555459 !important;
+  color: rgba(45, 61, 74, 1) !important;
+}
+
+html, body, button,
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="url"],
+select, textarea,
+.text-input, .tokenist {
+  color: rgba(45, 61, 74, 1) !important;
 }
 
 pre {
@@ -79,6 +89,89 @@ pre {
   color: #555459 !important;
 }
 
+/* -- INBOX -- */
+
+/* soften that divider */
+
+.right-panel {
+  border-left: 1px solid rgba(233, 235, 236, 1) !important;
+}
+
+.chat-message, .mention-message, .inbox-message,
+.info-message, .error-message, .single-message,
+.thread-activity-message, .thread-discussion-message {
+  border-color: rgba(233, 235, 236, 0.5) !important;
+}
+
+.thread-status-small, .user-in-team {
+  font-size: 7px !important;
+  font-weight:700 !important;
+}
+
+.inbox-message .title,
+.info-message .title,
+.error-message .title,
+.single-message .title {
+  color: rgba(67, 90, 108, 1) !important;
+}
+
+.inbox-message .excerpt,
+.info-message .excerpt,
+.error-message .excerpt,
+.single-message .excerpt {
+  color: rgba(138, 142, 146, 1) !important;
+  font-size: 0.9rem !important;
+}
+
+.inbox-message .meta,
+.info-message .meta,
+.error-message .meta,
+.single-message .meta {
+  color: rgba(186, 191, 195, 1) !important;
+}
+
+.item .timestamp-link,
+.item .timestamp,
+.item .author-name {
+  color: rgba(186, 191, 195, 1) !important;
+}
+
+.item .timestamp-link,
+ span.main-link-text,
+  .fa-external-link  {
+  font-size: 0.9rem !important;
+}
+
+.item a .timestamp-link,
+a span.main-link-text,
+a .fa-external-link {
+  color: rgba(0, 107, 193, 0.5) !important;
+}
+
+.item a:hover .timestamp-link,
+a:hover span.main-link-text,
+a:hover .fa-external-link {
+  color: rgba(0, 107, 193, 1) !important;
+}
+
+.inbox-message .inbox-thread-author-name,
+.info-message .inbox-thread-author-name,
+.error-message .inbox-thread-author-name,
+.single-message .inbox-thread-author-name {
+  font-weight:600;
+  color:rgba(67, 90, 108, 0.8);
+}
+
+.tags .tag {
+  background-color: transparent !important;
+  color: #aaa !important;
+  font-size: 0.9rem !important;
+}
+
+.tags .tag:hover {
+  color: #333 !important;
+  background-color: #d8edf8 !important;
+}
 
 
 /* -- SIDEBAR -- */
