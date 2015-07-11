@@ -67,6 +67,7 @@ pre {
   color: rgba(50, 150, 210, 1) !important;
   font-weight: 600;
   bottom: 0.01rem !important;
+  border-radius: 4px 4px 0 0;
 }
 
 .typing-users {
