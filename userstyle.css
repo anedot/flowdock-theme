@@ -55,16 +55,61 @@ pre {
   padding-left: 2.25em !important;
 }
 
+.chat-message.last-read-message {
+  background-image: none !important;
+  border-bottom: 1px solid rgba(50, 150, 210, 0.105) !important;
+  padding-bottom: 30px !important;
+}
+
+.chat-message .last-read-message-text {
+  width: 150px !important;
+  background:rgba(50, 150, 210, 0.105) !important;
+  color: rgba(50, 150, 210, 1) !important;
+  font-weight: 600;
+  bottom: 0.01rem !important;
+}
+
+.typing-users {
+  padding: 0 10px !important;
+  border-radius: 3px 3px 0 0 !important;
+  background: rgba(234, 235, 236, 1) !important;
+  color: #555 !important;
+}
+
+#inbox-toggle-item {
+  width: 4.75rem !important;
+}
+
+#inbox-toggle-item span.toolbar-toggle {
+  font-size:0 !important;
+  padding: 14px 8px 16px 10px !important;
+}
+
+#inbox-toggle-item span.fa-stack.inbox-notification-container {
+  font-size:0.8rem !important;
+}
+
+#search-form-item {
+  margin-right: 4.75rem !important;
+}
+
+/* for testing
+.typing-users:empty {
+  display: inline !important;
+}*/
+
 /* fix seen icon spacing */
 .private .message-seen::after {
   left: 1em !important;
 }
 
+/* remove this for now...
+
 #toolbar, #chat-form {
   background-color: #fff !important;
   border-bottom: none !important;
   border-top: none !important;
-}
+}*/
 
 #toolbar {
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
