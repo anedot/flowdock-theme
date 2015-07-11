@@ -3,15 +3,14 @@
 
 This is the collaboration of @Anedot team members and friends.
 
-## Installation
+## Install or Update (for Mac)
 
-Clone or copy userstyle.css into:
+1. [download `AFDT Updater`](https://raw.githubusercontent.com/anedot/flowdock-theme/paultwo/updates/AFDT-Updator.zip "Download `AFDT Updater`")
+2. Unpackage and run the application on your computer. AFDT Updater will fetch the latest theme and install it for you.
+
+**AFDT Updater**
+The AFDT Updater Application simply is using curl to download the latest theme updates and then clone the `userstyle.css` file into:
+
 `~/Library/Application Support/Flowdock/`
 
-Your Flowdock will look like our Flowdock. :+1:
-
-## Simple Install or Update for Mac
-
-If you don't want to hassle with moving files around, [download `AFDT Updater`](https://raw.githubusercontent.com/anedot/flowdock-theme/paultwo/updates/AFDT-Updator.zip "Download `AFDT Updater`") download `AFDT Updater` (Anedot Flowdock Theme Updater) and run the application on your computer. AFDT Updater will fetch the latest theme and install it for you.
-
-*Inspired by Slack and @rnarius and Flowdock's reference to rnarius' custom style repo.*
+In no time, your Flowdock will look like our Flowdock. :+1
