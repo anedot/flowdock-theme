@@ -9,7 +9,7 @@ This is the collaboration of @Anedot team members and friends.
 2. Unpackage and run the application on your computer. AFDT Updater will fetch the latest theme and install it for you.
 
 **AFDT Updater**
-The AFDT Updater Application simply is using curl to download the latest theme updates and then clone the `userstyle.css` file into:
+The AFDT Updater Application simply uses curl to download the latest theme updates and then clone the `userstyle.css` file into:
 
 `~/Library/Application Support/Flowdock/`
 
