@@ -69,14 +69,14 @@ pre {
 .typing-users {
   padding: 0 10px !important;
   border-radius: 3px 3px 0 0 !important;
-  background: rgba(0,0,0,0.15) !important;
+  background: rgba(234, 235, 236, 1) !important;
   color: #555 !important;
 }
 
-/* for testing */
+/* for testing
 .typing-users:empty {
   display: inline !important;
-}
+}*/
 
 /* fix seen icon spacing */
 .private .message-seen::after {
