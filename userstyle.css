@@ -601,4 +601,9 @@ div.title.floating {
 
 /* idle status indicator */
 [data-presence="idle"]        { position: relative; }
-[data-presence="idle"]:before { display: block; content: ""; width: 8px; height: 8px; border-radius: 50%; background: #f0b262; position: absolute; bottom: 8px; left: 15px; z-index: 10; }
+[data-presence="idle"]:before { display: block; content: ""; width: 8px; height: 8px; border-radius: 50%; background: #f0b262; position: absolute; bottom: 8px; left: 15px; z-index: 10; -webkit-animation: delay-show 300s ease-in forwards; }
+@-webkit-keyframes delay-show {
+  0%                          { opacity: 0; }
+  99%                         { opacity: 0; }
+  100%                        { opacity: 1; }
+}
