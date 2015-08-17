@@ -67,7 +67,7 @@ pre {
   color: rgba(50, 150, 210, 1) !important;
   font-weight: 600;
   bottom: 0.01rem !important;
-  border-radius: 4px 4px 0 0;
+  border-radius: 4px 4px 0 0 !important;
 }
 
 .typing-users {
@@ -598,3 +598,7 @@ div.title.floating {
 .icon-comment + .body {
   height: 1.827rem !important;
 }
+
+/* idle status indicator */
+[data-presence="idle"]        { position: relative; }
+[data-presence="idle"]:before { display: block; content: ""; width: 8px; height: 8px; border-radius: 50%; background: #f0b262; position: absolute; bottom: 8px; left: 15px; z-index: 10; }
