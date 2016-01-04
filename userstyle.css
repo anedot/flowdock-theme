@@ -331,6 +331,14 @@ Organizations
   background-color: rgba(0,0,0,0) !important;
 }
 
+/* Decrease size of minimized sidebar avatars */
+.minimized .tab-avatar {
+  width: 2.3rem;
+  height: 2.3rem;
+  line-height: 2.3rem;
+  margin: 0 1.279rem 0.5rem !important;
+}
+
 .minimized .flow-list .current .tab-avatar {
   line-height: 2.1rem !important;
 }
