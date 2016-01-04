@@ -14,4 +14,4 @@ The AFDT Updater Application simply is using curl to download the latest theme u
 
 `~/Library/Application Support/Flowdock/`
 
-In no time, your Flowdock will look like our Flowdock. :+1
+In no time, your Flowdock will look like our Flowdock. :+1:
